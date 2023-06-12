@@ -1,0 +1,364 @@
+@keyframes nome {
+    0% {
+        color: greenyellow;
+    }
+
+    50% {
+        color: rgb(245, 87, 184);
+    }
+
+    75% {
+        color: rgb(186, 231, 218);
+    }
+
+    100% {
+        color: rgb(198, 93, 224);
+    }
+
+
+}
+
+* {
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background-color: blueviolet;
+    background: linear-gradient(white, blueviolet);
+    background: -moz-linear-gradient(white, blueviolet);
+    background: -o-linear-gradient(white, blueviolet);
+    background: -webkit-gradient(white, blueviolet);
+
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+
+}
+
+.tudo-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+
+}
+
+.menu {
+
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: space-around;
+
+}
+
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav ul {
+    display: flex;
+    margin-top: 50px;
+}
+
+nav li {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    align-items: center;
+    margin-left: 30px;
+}
+
+
+.titulo {
+    margin: 10px;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation-name: nome;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    text-shadow: 4px 4px 3px #8888;
+
+}
+
+
+h1 {
+    color: pink;
+    font-size: 20px;
+    padding-left: 0px;
+    margin-top: 13px;
+
+}
+
+img,
+button {
+    height: 35px;
+    width: 35px;
+    margin-bottom: 60px;
+    border-radius: 50px;
+    margin-left: 0px;
+    background: transparent;
+
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image: url('./imagens/pexels-lisa-fotios-851219.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+.column {
+    flex-direction: column;
+
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container h1 {
+
+    color: pink;
+    font-size: 70px;
+    text-shadow: 1px 2px 1px #ffff;
+    max-width: 350px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container h2 {
+    color: pink;
+    font-size: 22px;
+    text-shadow: 1px 2px 1px #ffff;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    max-width: 350px;
+    margin-bottom: 15px;
+}
+
+.banner-options {
+    height: 210px;
+    display: flex;
+}
+
+.options1,
+.options2,
+.options3 {
+    flex: 1;
+    color: #ffff;
+    padding: 20px;
+}
+
+.options1 {
+    background-color: rgb(255, 168, 182);
+    ;
+
+}
+
+.options2 {
+    background-color: rosybrown;
+}
+
+.options3 {
+    background-color: palevioletred;
+}
+
+.options-title {
+    font-size: 21px;
+
+}
+
+.text1 {
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+#geral {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#geral section {
+    flex: 2;
+    background-color: #ffff;
+}
+
+#geral aside {
+    flex: 1;
+    width: 730px;
+}
+
+.widget-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget-title-text {
+    color: #F16896;
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.widget-title-text2 {
+    color: #F16896;
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.quadrado {
+    width: 200px;
+    height: 150px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.part-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.part-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.widget-body {
+    color: pink;
+    font-family: 'Courier New', Courier, monospace;
+}
+.widget-body2 {
+    color: pink;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.input:hover,
+.input {
+    border-radius: 30px;
+    height: 30px;
+    color: black;
+    background-color: pink;
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    padding: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-menu {
+    display: flex;
+    flex: 1;
+
+}
+
+.fm-1,
+.fm-2,
+.fm-3 {
+
+    flex: 1;
+    color: #ffff;
+    padding: 20px;
+}
+
+.fm-1 {
+    background-color: rgb(255, 168, 182);
+    ;
+
+}
+
+.fm-2 {
+    background-color: rosybrown;
+}
+
+.fm-3 {
+    background-color: palevioletred;
+
+}
+
+.menu-mobile {
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: 20px;
+
+}
+
+.mm-line {
+    background-color: #F16896;
+    height: 3px;
+}
+
+.copy{ 
+    width: 100%;
+    height: 20px;
+    border-top: #ffff 1px solid;
+    color: #ffff;
+    font-size: 9px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+@media(max-width: 980px) {
+    .text1 {
+        font-size: 15px;
+    }
+
+    .banner-options {
+        height: auto;
+        flex-direction: column;
+    }
+
+    #geral aside {
+        padding: 20px;
+    }
+
+    .widget-title-text {
+        padding: 50px;
+        margin-top: 20px;
+    }
+
+}
+

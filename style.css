@@ -32,20 +32,20 @@ body {
     background: -moz-linear-gradient(white, blueviolet);
     background: -o-linear-gradient(white, blueviolet);
     background: -webkit-gradient(white, blueviolet);
-
+overflow-x: hidden;
 
 }
 
 header {
     display: flex;
     justify-content: center;
-    height: 120px;
+    height: 90px;
+    position: sticky;
 
 }
 
 .tudo-menu {
     display: flex;
-    justify-content: space-between;
     width: 1000px;
 
 }
@@ -55,7 +55,7 @@ header {
     display: flex;
     align-items: center;
     width: 90%;
-    justify-content: space-around;
+    justify-content: center;
 
 }
 
@@ -97,8 +97,6 @@ nav li {
 h1 {
     color: pink;
     font-size: 20px;
-    padding-left: 0px;
-    margin-top: 13px;
 
 }
 

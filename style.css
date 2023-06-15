@@ -157,7 +157,7 @@ button {
 }
 
 .banner-options {
-    height: 210px;
+    height: 238px;
     display: flex;
 }
 
@@ -190,9 +190,11 @@ button {
 
 .text1 {
     font-size: 18px;
-    width: 100%;
+    width: 90%;
     height: 100%;
     margin-top: 10px;
+   
+    text-align: start;
 }
 
 #geral {
